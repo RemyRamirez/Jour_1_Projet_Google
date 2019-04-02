@@ -125,7 +125,7 @@ body
 .footer_2_bas_gauche{
     display:flex;
     align-items: flex-start;
-    align-items: center;
+    align-items: center;    
 }
 
 .footer_2_bas_droite{
