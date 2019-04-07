@@ -2,7 +2,8 @@ header
 {
     display: flex;
     justify-content: flex-end;
-    align-items: center; 
+    align-items: center;
+    padding-right: 1%;
 }
 body
 {
@@ -13,13 +14,23 @@ body
  {
    font-family: Arial, sans-serif;
    font-size: 13px;
-   text-decoration: none;
-   
+   text-decoration: none;  
+}
+
+#Gmail:link
+{
+    text-decoration: none; 
+}
+
+#Images:link
+{
+    text-decoration: none; 
 }
 
 .Liens_cliquables:hover
 {
    text-decoration: underline;
+   font-style: italic;
 }
 
 .bouton_connexion
@@ -44,8 +55,12 @@ body
     background-color: #f2f2f2;
     padding: 0px 14px 0px 14px;
     text-decoration: none;
-    
-    
+}
+
+.Bouton_Chance:hover, .Bouton_Recherche_google:hover
+{
+    background-color: blanchedalmond;
+    border-color: black;
 }
 
 .Position_nav
@@ -71,18 +86,22 @@ body
     justify-content: space-around;
     width: 400px;
     padding-top: 25px;
-    
-    
+}
+
+.Barre_Recherche1:hover
+{
+    box-shadow: 2px 2px 10px 5px grey;
 }
 
 #Barre_Recherche
     {
         height: 44px;
+        min-width: 100px;
         width: 582px;
         border-style: solid;
         border-width: 1px;
-        border-color: black;
-        border-radius: 15px;
+        border-color: grey;
+        border-radius: 25px;
         font-family: Arial, sans-serif;
         font-size: 16px;
     }
@@ -132,6 +151,7 @@ body
     display:flex;
     align-items: flex-end;
     align-items: center;
+    padding-right: 1%;
     
 }
 
